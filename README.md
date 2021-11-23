@@ -71,7 +71,7 @@ The URL of the deployed application.
 The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
 Mockup
-![Mockup](../assets/images/MockUpGoal.png)
+![Mockup](..\assets\images\MockupGoal.png)
 
 ScreenShot of Deployed website
 
