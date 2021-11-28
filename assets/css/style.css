@@ -204,10 +204,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  .contact-info iframe{
-      height: 400px;
-  }
-  .contact-info > * {
+   .contact-info > * {
     flex: 1;
     margin: 15px;
   }
@@ -218,72 +215,22 @@
     color: var(--primary-color);
     font-size: 32px;
   }
-  .contact-info p, .contact-info address {
+  .contact-info p {
+    flex: 1;
     margin: 20px 0;
     line-height: 1.5;
     font-size: 16px;
     font-style: normal;
+    color: var(--primary-color);
   }
   .contact-info a {
     color: var(--primary-color);
-  }
-  .contact-form input, .contact-form textarea {
-    border: 1px solid var(--secondary-color);
-    display: block;
-    padding: 7px 15px;
-    font-size: 16px;
-    color: var(--secondary-color);
-    width: 100%;
-    margin-bottom: 15px;
-    margin-top: 5px;
-    border-radius: 10px;
-    background-color: rgba(255,255,255, 0.75)
-    }
-  .contact-form input:focus, .contact-form textarea:focus {
-      background-color: rgba(255,255,255, 1);
-      outline: none;
-    }
-  .contact-form button {
-    width: 100%;
-    border: none;
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    text-align: center;
-    padding: 15px 0;
-    font-size: 16px;
-    border-radius: 10px;
-  }
-  .contact-form button:hover {
-    color: var(--primary-color);
-    background: var(--tertiary-color);
-  }
-  .trainer-bio h4 {
-    font-weight: lighter;
-    font-size: 22px;
-    margin-bottom: 15px;
-  }
-  .trainer-bio p {
-    font-size: 17px;
-   }
-  footer {
-    background: var(--primary-color);
-    width: 100%;
-    padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  footer h2 {
-    color: var(--secondary-color);
-    font-size: 30px;
-    margin: 0;
-  }
-  footer div {
+    flex: 1;
+    margin: 20px 0;
     line-height: 1.5;
-    text-align: right;
-  }
-  footer a {
-    color: var(--secondary-color);
+    font-size: 16px;
+    font-style: normal;
+    color: var(--primary-color);
   }
   section {
     padding: 60px;
