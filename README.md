@@ -74,5 +74,6 @@ Mockup
 ![Picture of goal](./assets/images/MockupGoal.png)
 
 ScreenShot of Deployed website
+![Screenshot of Deployed website](assets/images/portfolio-challenge.png)
 
 
