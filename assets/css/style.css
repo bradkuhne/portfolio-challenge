@@ -59,9 +59,19 @@
       border-radius: 15px;
       text-shadow: none;
     }
+  .other-projects-title {
+    margin: 50px 50px;
+    padding-bottom: 50px;
+    /* width: 80%; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--tertiary-color);
+  }
   .section-title {
     font-size: 48px;
-    color: var(--tertiary-color);
+    color: var(--primary-color);
     border-bottom: 3px solid;
     padding-bottom: 20px;
     text-align: center;
@@ -69,7 +79,7 @@
     width: 50%;
   }
   .primary-border {
-    border-color: var(--primary-color);
+    border-color: var(--tertiary-color);
   }
   .secondary-border {
     border-color: var(--tertiary-color);
@@ -82,7 +92,7 @@
     font-size: 20px;
     text-align: center;
   }
-  .primary {
+  .primary-project {
     margin: 50px 50px;
     padding-bottom: 50px;
     /* width: 80%; */
@@ -90,6 +100,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    color: var(--tertiary-color);
   }
   .project {
     margin: 50px auto;
@@ -112,7 +123,7 @@
     flex: 1 50%;
     text-align: center;
   }
-  .project h3 {
+  .section-title h3 {
     color: var(--secondary-color);
     font-size: 32px;
     flex: 1 50%;
@@ -156,25 +167,28 @@
   .text-right {
     text-align: right;
   }
-  .trainers {
+  .other-projects-info {
     width: 100%;
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  .trainer {
+  .other-project {
     margin: 20px;
-    background: var(--secondary-color);
+    /* background: var(--secondary-color); */
     color: var(--primary-color);
     flex: 1;
     }
-  .trainer img {
+  .other-project img {
     width: 100%;
+    height: 150px;
    }
-  .trainer-bio {
-    padding: 25px;
+  .other-project-title {
+    padding: 10px;
     line-height: 1.3;
+    color: var(--secondary-color);
+    text-align: center;
   }
   .trainer-bio h3 {
     font-size: 28px;
