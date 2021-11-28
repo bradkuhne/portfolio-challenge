@@ -1,8 +1,8 @@
 # portfolio-challenge
 Brad Kuhne's Full Stack Development Portfolio
 
-Website URL:
-Project Repository URL:
+Website URL: https://bradkuhne.github.io/portfolio-challenge/
+Project Repository URL: https://github.com/bradkuhne/portfolio-challenge
 
 
 USER STORY
